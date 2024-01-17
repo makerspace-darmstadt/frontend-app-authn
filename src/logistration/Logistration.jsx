@@ -118,7 +118,7 @@ const Logistration = (props) => {
                 )
                 : (!isValidTpaHint() && (
                   <Tabs defaultActiveKey={selectedPage} id="controlled-tab" onSelect={handleOnSelect}>
-                    <Tab title={formatMessage(messages['logistration.register'])} eventKey={REGISTER_PAGE} />
+                    {/*<Tab title={formatMessage(messages['logistration.register'])} eventKey={REGISTER_PAGE} />*/}
                     <Tab title={formatMessage(messages['logistration.sign.in'])} eventKey={LOGIN_PAGE} />
                   </Tabs>
                 ))}
